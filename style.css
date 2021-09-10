@@ -1,0 +1,48 @@
+h1{
+
+    color: rgb(15, 15, 15);
+    font-size: xxx-large;
+    font-style: unset;
+}
+h2{
+
+    color: rgb(255, 255, 255);
+}
+.header{
+
+    background-color: crimson;
+    justify-content: space-between;
+    display: flex;
+   /* background-image:url("samsungsymbol.png") ;*/
+}
+
+.items{
+
+    color: chartreuse;
+}
+
+body{
+
+    background-color: rgb(41, 36, 36);
+}
+
+.items{
+
+    position: relative;
+}
+.items p{
+
+    position: absolute;
+    top: 60%;
+    bottom: 50%;
+    transform: translate();
+    opacity: 0;
+}
+.items:hover p{
+opacity: 1;
+
+}
+.items:hover img{
+
+    opacity: 0.33;
+}
